@@ -47,7 +47,7 @@ const handleMenuItemClick=(name)=>{
 }
 
   return (
-    <aside  className='w-72 flex flex-col justify-between px-2'>
+    <aside  className='w-72 h-screen flex flex-col justify-between px-2 sticky top-0'>
       <div>
         <div className='mt-1 mb-4 ml-1 cursor-pointer flex items-center justify-center w-12 h-12 rounded-full hover:bg-blue-50'>
           <img src={twitterLogo} alt="Twitter Logo" className='w-9 h-9' />
